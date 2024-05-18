@@ -1,24 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-<style>
-    #box{
-        height: 400px;
+    <style>
+      .box {
         width: 22%;
-        border: 2px solid ;
-    }
-    #img{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: inline-block;
+    
+        border: 1px solid;
+        
+      }
+      
+
+      
+      #img {
         width: 100%;
-    }
-</style>
-</head>
-<body>
-    <div id="box">
-        <img id="img" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
-    <p>Vijay Shekhar Sharma</p>
+      }
+      .content {
+        text-align: center;
+        line-height: 1px;
+      }
+      .logo {
+        width: 100px;
+        display: block;
+
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <div class="box">
+      
+            <img
+              id="img"
+              src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg"
+              alt=""
+            />
+    
+            <h4 class="content">Vijay Shekhar Sharma</h4>
+            <p class="content" style="color: rgb(94, 80, 80)">Founder & CEO</p>
+            <img
+              class="logo"
+              src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg"
+              alt="paytm logo"
+            />
+            
+          
+          
+        </div>
+        <div style="margin-left: 10px;" class="box">
+      
+            <img
+              id="img"
+              src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg"
+              alt=""
+            />
+    
+            <h4 class="content">Vijay Shekhar Sharma</h4>
+            <p class="content" style="color: rgb(94, 80, 80)">Founder & CEO</p>
+            <img
+              class="logo"
+              src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg"
+              alt="paytm logo"
+            />
+            
+          
+          
+        </div>
     </div>
-</body>
+    
+  </body>
 </html>
